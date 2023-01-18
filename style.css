@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+nav {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.nav-elements{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plus-color {
+    color: yellow;
+    font-weight: 900;
+}
+
+p.logo {
+    color: white;
+    position: relative;
+    top: -5px;
+}
+p.logo:hover{
+    text-decoration: underline;
+}
+
+.search {
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 20px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), 7px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.search input {
+    width: 380px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+
+
+.loginBtn {
+    padding: 7px 30px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+    background-color: white;
+    margin-left: 190px;
+}
+
+
+
+.navlink {
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.angledownIcon i {
+    font-size: 10px;
+}
+
+.angledownIcon {
+    margin-left: 35px
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 12px 8px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.image-text{
+    padding-right: 80px;
+}
+.text{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.box{
+    background-color: whitesmoke;
+    padding: 16px 0px;
+}
+.electronic-content{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+.left-part{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 80%;
+}
+.right-part{
+    width: 12%;
+    height: 100%;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.right-part img{
+    height: 437px;
+    width: 260px;
+}
+.text-box{
+    font-size: 22px;
+    padding: 14px 14px 17px 14px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 600;
+}
+
+.btun{
+    background: #2874f0;
+    color: #fff;
+    border: none;
+    float: right;
+    border-radius: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product{
+    display: flex;
+    padding: 0px 20px;
+    width: 100%;
+    text-align: center;
+    max-width: 74vw;
+}
+
+.items{
+    padding: 20px 25px;
+}
+.items img{
+    height: 200px;
+    width: auto;
+}
+.name{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.disc{
+    color: #388e3c;
+    padding-top: 8px;
+}
+
+.desc{
+    opacity: .6;
+    font-size: 14px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+hr{
+    opacity: 0.5;
+}
+
+.musical{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 86px 0px;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    height: 25px;
+    width: 20px;
+    padding-left: 5px;
+    display: inline-flex;
+}
+
+#Countdown-time{
+    font-size: 15px;
+    color: #8f8a8a;
+    padding-left: 5px;
+}
+
+.scroll-and-product{
+    display: flex;
+    background-color: transparent;
+}
+.products-block{
+    overflow-x: hidden;
+    max-width: 96vw;
+    display: flex;
+    padding: 20px 0px;
+    width: 104em;
+}
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform: translateX(0px);
+}
+
+.scroll{
+    display: flex;
+    background-color: transparent;
+}
+.scroll-left-btn{
+    position: relative;
+    align-self: center;
+    margin: 0px 10px 0px 0px;
+}
+.scroll-right-btn{
+    position: relative;
+    align-self: center;
+    margin: 0px 0px 0px 10px;
+}
+.scroll-left-btn > button{
+    box-shadow:  2px 1px 0 rgb(0 0 0 / 11%),-1px -2px 0 rgb(0 0 0 / 11%);
+    background-color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 40px 10px;
+    cursor: pointer;
+}
+.scroll-right-btn > button{
+    box-shadow:  2px 1px 0 rgb(0 0 0 / 11%),-1px -2px 0 rgb(0 0 0 / 11%);
+    background-color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 40px 10px;
+    cursor: pointer;
+}
+.scroll-right-btn > button > svg{
+    transform: rotate(180deg);
+}
